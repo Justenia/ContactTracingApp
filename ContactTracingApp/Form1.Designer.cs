@@ -536,8 +536,9 @@ namespace ContactTracingApp
             this.Controls.Add(this.lbl_middleName);
             this.Controls.Add(this.lbl_firstName);
             this.Controls.Add(this.lbl_lastName);
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Contact Tracing App";
+            this.Text = "COVID-19 Contact Tracing App";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

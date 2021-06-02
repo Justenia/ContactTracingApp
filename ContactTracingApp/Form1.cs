@@ -31,12 +31,14 @@ namespace ContactTracingApp
             outputFile.WriteLine(lbl_contactNum.Text + " " + txtBox_contactNum.Text);
             outputFile.WriteLine(lbl_address.Text + " " + txtBox_address.Text);
             outputFile.WriteLine(lbl_emailAdd.Text + " " + txtBox_emailAdd.Text);
-            outputFile.WriteLine(lbl_Question.Text + lbl_dryCough.Text + " " + comboBox_YN1.Text);
-            outputFile.WriteLine(lbl_Question.Text + lbl_shortBreath.Text + " " + comboBox_YN2.Text);
-            outputFile.WriteLine(lbl_Question.Text + lbl_fatigue.Text + " " + comboBox_YN3.Text);
-            outputFile.WriteLine(lbl_Question.Text + lbl_headache.Text + " " + comboBox_YN4.Text);
-            outputFile.WriteLine(lbl_Question.Text + lbl_loss.Text + " " + comboBox_YN5.Text);
-            outputFile.WriteLine(lbl_Question.Text + lbl_musclePain.Text + " " + comboBox_YN6.Text);
+            outputFile.WriteLine("==========================================");
+            outputFile.WriteLine(lbl_Question.Text);
+            outputFile.WriteLine(lbl_dryCough.Text + " " + comboBox_YN1.Text);
+            outputFile.WriteLine(lbl_shortBreath.Text + " " + comboBox_YN2.Text);
+            outputFile.WriteLine(lbl_fatigue.Text + " " + comboBox_YN3.Text);
+            outputFile.WriteLine(lbl_headache.Text + " " + comboBox_YN4.Text);
+            outputFile.WriteLine(lbl_loss.Text + " " + comboBox_YN5.Text);
+            outputFile.WriteLine(lbl_musclePain.Text + " " + comboBox_YN6.Text);
             outputFile.Close();
         }
     }

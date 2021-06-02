@@ -16,5 +16,10 @@ namespace ContactTracingApp
         {
             InitializeComponent();
         }
+
+        private void btn_Save_Click(object sender, EventArgs e)
+        {
+            StreamWriter 
+        }
     }
 }

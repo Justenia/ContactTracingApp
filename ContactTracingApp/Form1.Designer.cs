@@ -325,6 +325,7 @@ namespace ContactTracingApp
             this.btn_Save.TabIndex = 35;
             this.btn_Save.Text = "Save File";
             this.btn_Save.UseVisualStyleBackColor = false;
+            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // comboBox_gender
             // 

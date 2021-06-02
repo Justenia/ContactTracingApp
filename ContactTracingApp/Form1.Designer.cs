@@ -266,54 +266,54 @@ namespace ContactTracingApp
             this.lbl_loss.AutoSize = true;
             this.lbl_loss.Location = new System.Drawing.Point(488, 47);
             this.lbl_loss.Name = "lbl_loss";
-            this.lbl_loss.Size = new System.Drawing.Size(113, 15);
+            this.lbl_loss.Size = new System.Drawing.Size(116, 15);
             this.lbl_loss.TabIndex = 21;
-            this.lbl_loss.Text = "Loss of taste/smell";
+            this.lbl_loss.Text = "Loss of taste/smell:";
             // 
             // lbl_musclePain
             // 
             this.lbl_musclePain.AutoSize = true;
             this.lbl_musclePain.Location = new System.Drawing.Point(526, 92);
             this.lbl_musclePain.Name = "lbl_musclePain";
-            this.lbl_musclePain.Size = new System.Drawing.Size(74, 15);
+            this.lbl_musclePain.Size = new System.Drawing.Size(77, 15);
             this.lbl_musclePain.TabIndex = 20;
-            this.lbl_musclePain.Text = "Muscle Pain";
+            this.lbl_musclePain.Text = "Muscle Pain:";
             // 
             // lbl_headache
             // 
             this.lbl_headache.AutoSize = true;
-            this.lbl_headache.Location = new System.Drawing.Point(270, 92);
+            this.lbl_headache.Location = new System.Drawing.Point(274, 92);
             this.lbl_headache.Name = "lbl_headache";
-            this.lbl_headache.Size = new System.Drawing.Size(60, 15);
+            this.lbl_headache.Size = new System.Drawing.Size(63, 15);
             this.lbl_headache.TabIndex = 19;
-            this.lbl_headache.Text = "Headache";
+            this.lbl_headache.Text = "Headache:";
             // 
             // lbl_fatigue
             // 
             this.lbl_fatigue.AutoSize = true;
             this.lbl_fatigue.Location = new System.Drawing.Point(285, 48);
             this.lbl_fatigue.Name = "lbl_fatigue";
-            this.lbl_fatigue.Size = new System.Drawing.Size(47, 15);
+            this.lbl_fatigue.Size = new System.Drawing.Size(50, 15);
             this.lbl_fatigue.TabIndex = 18;
-            this.lbl_fatigue.Text = "Fatigue";
+            this.lbl_fatigue.Text = "Fatigue:";
             // 
             // lbl_shortBreath
             // 
             this.lbl_shortBreath.AutoSize = true;
-            this.lbl_shortBreath.Location = new System.Drawing.Point(18, 92);
+            this.lbl_shortBreath.Location = new System.Drawing.Point(13, 92);
             this.lbl_shortBreath.Name = "lbl_shortBreath";
-            this.lbl_shortBreath.Size = new System.Drawing.Size(114, 15);
+            this.lbl_shortBreath.Size = new System.Drawing.Size(117, 15);
             this.lbl_shortBreath.TabIndex = 17;
-            this.lbl_shortBreath.Text = "Shortness of Breath";
+            this.lbl_shortBreath.Text = "Shortness of Breath:";
             // 
             // lbl_dryCough
             // 
             this.lbl_dryCough.AutoSize = true;
             this.lbl_dryCough.Location = new System.Drawing.Point(61, 48);
             this.lbl_dryCough.Name = "lbl_dryCough";
-            this.lbl_dryCough.Size = new System.Drawing.Size(65, 15);
+            this.lbl_dryCough.Size = new System.Drawing.Size(68, 15);
             this.lbl_dryCough.TabIndex = 16;
-            this.lbl_dryCough.Text = "Dry Cough";
+            this.lbl_dryCough.Text = "Dry Cough:";
             // 
             // btn_Save
             // 

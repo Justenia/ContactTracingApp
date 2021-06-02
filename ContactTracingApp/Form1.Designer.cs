@@ -138,7 +138,7 @@ namespace ContactTracingApp
             this.lbl_address.AutoSize = true;
             this.lbl_address.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lbl_address.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_address.Location = new System.Drawing.Point(11, 170);
+            this.lbl_address.Location = new System.Drawing.Point(11, 154);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(91, 15);
             this.lbl_address.TabIndex = 6;
@@ -149,7 +149,7 @@ namespace ContactTracingApp
             this.lbl_emailAdd.AutoSize = true;
             this.lbl_emailAdd.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lbl_emailAdd.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_emailAdd.Location = new System.Drawing.Point(12, 208);
+            this.lbl_emailAdd.Location = new System.Drawing.Point(12, 190);
             this.lbl_emailAdd.Name = "lbl_emailAdd";
             this.lbl_emailAdd.Size = new System.Drawing.Size(90, 15);
             this.lbl_emailAdd.TabIndex = 7;
@@ -204,7 +204,7 @@ namespace ContactTracingApp
             // 
             this.txtBox_address.BackColor = System.Drawing.SystemColors.Control;
             this.txtBox_address.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBox_address.Location = new System.Drawing.Point(111, 165);
+            this.txtBox_address.Location = new System.Drawing.Point(111, 149);
             this.txtBox_address.Name = "txtBox_address";
             this.txtBox_address.Size = new System.Drawing.Size(642, 23);
             this.txtBox_address.TabIndex = 13;
@@ -213,7 +213,7 @@ namespace ContactTracingApp
             // 
             this.txtBox_emailAdd.BackColor = System.Drawing.SystemColors.Control;
             this.txtBox_emailAdd.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBox_emailAdd.Location = new System.Drawing.Point(111, 205);
+            this.txtBox_emailAdd.Location = new System.Drawing.Point(111, 185);
             this.txtBox_emailAdd.Name = "txtBox_emailAdd";
             this.txtBox_emailAdd.Size = new System.Drawing.Size(642, 23);
             this.txtBox_emailAdd.TabIndex = 14;
@@ -264,7 +264,7 @@ namespace ContactTracingApp
             this.groupBox1.Controls.Add(this.lbl_dryCough);
             this.groupBox1.Controls.Add(this.lbl_Question);
             this.groupBox1.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(14, 247);
+            this.groupBox1.Location = new System.Drawing.Point(14, 220);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(738, 131);
             this.groupBox1.TabIndex = 20;
@@ -329,7 +329,7 @@ namespace ContactTracingApp
             // 
             this.btn_Save.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btn_Save.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Save.Location = new System.Drawing.Point(560, 655);
+            this.btn_Save.Location = new System.Drawing.Point(571, 567);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(75, 23);
             this.btn_Save.TabIndex = 35;
@@ -425,9 +425,9 @@ namespace ContactTracingApp
             // rtb_ReadFiles
             // 
             this.rtb_ReadFiles.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtb_ReadFiles.Location = new System.Drawing.Point(15, 394);
+            this.rtb_ReadFiles.Location = new System.Drawing.Point(15, 368);
             this.rtb_ReadFiles.Name = "rtb_ReadFiles";
-            this.rtb_ReadFiles.Size = new System.Drawing.Size(737, 255);
+            this.rtb_ReadFiles.Size = new System.Drawing.Size(737, 193);
             this.rtb_ReadFiles.TabIndex = 37;
             this.rtb_ReadFiles.Text = "";
             // 
@@ -435,7 +435,7 @@ namespace ContactTracingApp
             // 
             this.btn_Exit.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btn_Exit.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Exit.Location = new System.Drawing.Point(677, 655);
+            this.btn_Exit.Location = new System.Drawing.Point(677, 567);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(75, 23);
             this.btn_Exit.TabIndex = 38;
@@ -449,7 +449,7 @@ namespace ContactTracingApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ContactTracingApp.Properties.Resources._1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(772, 690);
+            this.ClientSize = new System.Drawing.Size(772, 600);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.rtb_ReadFiles);
             this.Controls.Add(this.comboBox_gender);

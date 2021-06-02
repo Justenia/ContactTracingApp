@@ -156,6 +156,7 @@ namespace ContactTracingApp
             // txtBox_lastName
             // 
             this.txtBox_lastName.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_lastName.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_lastName.Location = new System.Drawing.Point(87, 21);
             this.txtBox_lastName.Name = "txtBox_lastName";
             this.txtBox_lastName.Size = new System.Drawing.Size(147, 20);
@@ -164,6 +165,7 @@ namespace ContactTracingApp
             // txtBox_firstName
             // 
             this.txtBox_firstName.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_firstName.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_firstName.Location = new System.Drawing.Point(323, 21);
             this.txtBox_firstName.Name = "txtBox_firstName";
             this.txtBox_firstName.Size = new System.Drawing.Size(197, 20);
@@ -172,6 +174,7 @@ namespace ContactTracingApp
             // txtBox_middleName
             // 
             this.txtBox_middleName.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_middleName.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_middleName.Location = new System.Drawing.Point(619, 23);
             this.txtBox_middleName.Name = "txtBox_middleName";
             this.txtBox_middleName.Size = new System.Drawing.Size(133, 20);
@@ -180,6 +183,7 @@ namespace ContactTracingApp
             // txtBox_age
             // 
             this.txtBox_age.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_age.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_age.Location = new System.Drawing.Point(86, 66);
             this.txtBox_age.Name = "txtBox_age";
             this.txtBox_age.Size = new System.Drawing.Size(255, 20);
@@ -188,6 +192,7 @@ namespace ContactTracingApp
             // txtBox_contactNum
             // 
             this.txtBox_contactNum.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_contactNum.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_contactNum.Location = new System.Drawing.Point(492, 110);
             this.txtBox_contactNum.Name = "txtBox_contactNum";
             this.txtBox_contactNum.Size = new System.Drawing.Size(261, 20);
@@ -196,6 +201,7 @@ namespace ContactTracingApp
             // txtBox_address
             // 
             this.txtBox_address.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_address.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_address.Location = new System.Drawing.Point(111, 165);
             this.txtBox_address.Name = "txtBox_address";
             this.txtBox_address.Size = new System.Drawing.Size(642, 20);
@@ -204,6 +210,7 @@ namespace ContactTracingApp
             // txtBox_emailAdd
             // 
             this.txtBox_emailAdd.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_emailAdd.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_emailAdd.Location = new System.Drawing.Point(111, 205);
             this.txtBox_emailAdd.Name = "txtBox_emailAdd";
             this.txtBox_emailAdd.Size = new System.Drawing.Size(642, 20);
@@ -232,6 +239,7 @@ namespace ContactTracingApp
             // txtBox_date
             // 
             this.txtBox_date.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBox_date.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_date.Location = new System.Drawing.Point(87, 109);
             this.txtBox_date.Name = "txtBox_date";
             this.txtBox_date.Size = new System.Drawing.Size(255, 20);
@@ -330,13 +338,14 @@ namespace ContactTracingApp
             // comboBox_gender
             // 
             this.comboBox_gender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_gender.Font = new System.Drawing.Font("Cambria", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_gender.FormattingEnabled = true;
             this.comboBox_gender.Items.AddRange(new object[] {
             "Male",
             "Female"});
             this.comboBox_gender.Location = new System.Drawing.Point(496, 65);
             this.comboBox_gender.Name = "comboBox_gender";
-            this.comboBox_gender.Size = new System.Drawing.Size(256, 21);
+            this.comboBox_gender.Size = new System.Drawing.Size(256, 20);
             this.comboBox_gender.TabIndex = 36;
             // 
             // comboBox_YN1

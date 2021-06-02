@@ -62,6 +62,7 @@ namespace ContactTracingApp
             this.comboBox_YN4 = new System.Windows.Forms.ComboBox();
             this.comboBox_YN5 = new System.Windows.Forms.ComboBox();
             this.comboBox_YN6 = new System.Windows.Forms.ComboBox();
+            this.rtb_ReadFiles = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -327,7 +328,7 @@ namespace ContactTracingApp
             // 
             this.btn_Save.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btn_Save.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Save.Location = new System.Drawing.Point(677, 415);
+            this.btn_Save.Location = new System.Drawing.Point(685, 655);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(75, 23);
             this.btn_Save.TabIndex = 35;
@@ -420,13 +421,22 @@ namespace ContactTracingApp
             this.comboBox_YN6.Size = new System.Drawing.Size(121, 23);
             this.comboBox_YN6.TabIndex = 27;
             // 
+            // rtb_ReadFiles
+            // 
+            this.rtb_ReadFiles.Location = new System.Drawing.Point(15, 394);
+            this.rtb_ReadFiles.Name = "rtb_ReadFiles";
+            this.rtb_ReadFiles.Size = new System.Drawing.Size(737, 255);
+            this.rtb_ReadFiles.TabIndex = 37;
+            this.rtb_ReadFiles.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ContactTracingApp.Properties.Resources._1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(777, 450);
+            this.ClientSize = new System.Drawing.Size(772, 690);
+            this.Controls.Add(this.rtb_ReadFiles);
             this.Controls.Add(this.comboBox_gender);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.groupBox1);
@@ -492,6 +502,7 @@ namespace ContactTracingApp
         private System.Windows.Forms.ComboBox comboBox_YN3;
         private System.Windows.Forms.ComboBox comboBox_YN2;
         private System.Windows.Forms.ComboBox comboBox_YN1;
+        private System.Windows.Forms.RichTextBox rtb_ReadFiles;
     }
 }
 

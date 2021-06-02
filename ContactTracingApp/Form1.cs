@@ -40,6 +40,11 @@ namespace ContactTracingApp
             outputFile.WriteLine(lbl_loss.Text + " " + comboBox_YN5.Text);
             outputFile.WriteLine(lbl_musclePain.Text + " " + comboBox_YN6.Text);
             outputFile.Close();
+
+            StreamReader inputFile;
+            inputFile = File.OpenText("Output.txt");
+            rtb_ReadFiles.Text = inputFile.ReadToEnd();
+            inputFile.Close();
         }
     }
 }

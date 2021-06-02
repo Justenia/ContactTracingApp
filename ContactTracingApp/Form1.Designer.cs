@@ -424,6 +424,7 @@ namespace ContactTracingApp
             // 
             // rtb_ReadFiles
             // 
+            this.rtb_ReadFiles.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtb_ReadFiles.Location = new System.Drawing.Point(15, 394);
             this.rtb_ReadFiles.Name = "rtb_ReadFiles";
             this.rtb_ReadFiles.Size = new System.Drawing.Size(737, 255);
@@ -440,6 +441,7 @@ namespace ContactTracingApp
             this.btn_Exit.TabIndex = 38;
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // Form1
             // 

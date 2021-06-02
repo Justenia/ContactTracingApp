@@ -46,5 +46,10 @@ namespace ContactTracingApp
             rtb_ReadFiles.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

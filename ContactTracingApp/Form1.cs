@@ -21,7 +21,7 @@ namespace ContactTracingApp
         private void btn_Save_Click(object sender, EventArgs e)
         {
             StreamWriter outputFile;
-            outputFile = File.CreateText("ContactTracingFiles.txt");
+            outputFile = File.AppendText("ContactTracingFiles.txt");
             outputFile.WriteLine(lbl_lastName.Text + " " + txtBox_lastName.Text);
             outputFile.WriteLine(lbl_firstName.Text + " " + txtBox_firstName.Text);
             outputFile.WriteLine(lbl_middleName.Text + " " + txtBox_middleName.Text);
@@ -31,7 +31,7 @@ namespace ContactTracingApp
             outputFile.WriteLine(lbl_contactNum.Text + " " + txtBox_contactNum.Text);
             outputFile.WriteLine(lbl_address.Text + " " + txtBox_address.Text);
             outputFile.WriteLine(lbl_emailAdd.Text + " " + txtBox_emailAdd.Text);
-            outputFile.WriteLine("==============================================");
+            outputFile.WriteLine();
             outputFile.WriteLine(lbl_Question.Text);
             outputFile.WriteLine(lbl_dryCough.Text + " " + comboBox_YN1.Text);
             outputFile.WriteLine(lbl_shortBreath.Text + " " + comboBox_YN2.Text);
@@ -39,6 +39,7 @@ namespace ContactTracingApp
             outputFile.WriteLine(lbl_headache.Text + " " + comboBox_YN4.Text);
             outputFile.WriteLine(lbl_loss.Text + " " + comboBox_YN5.Text);
             outputFile.WriteLine(lbl_musclePain.Text + " " + comboBox_YN6.Text);
+            outputFile.WriteLine("*************************************************************");
             outputFile.Close();
 
             StreamReader inputFile;

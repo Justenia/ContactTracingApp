@@ -52,5 +52,24 @@ namespace ContactTracingApp
         {
             this.Close();
         }
+
+        private void btn_Reset_Click(object sender, EventArgs e)
+        {
+            txtBox_lastName.Clear();
+            txtBox_firstName.Clear();
+            txtBox_middleName.Clear();
+            txtBox_age.Clear();
+            txtBox_date.Clear();
+            txtBox_contactNum.Clear();
+            txtBox_address.Clear();
+            txtBox_emailAdd.Clear();
+            comboBox_gender.Text = null;
+            comboBox_YN1.Text = null;
+            comboBox_YN2.Text = null;
+            comboBox_YN3.Text = null;
+            comboBox_YN4.Text = null;
+            comboBox_YN5.Text = null;
+            comboBox_YN6.Text = null;
+        }
     }
 }

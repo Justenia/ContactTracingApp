@@ -48,6 +48,12 @@ namespace ContactTracingApp
             this.lbl_date = new System.Windows.Forms.Label();
             this.txtBox_date = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox_YN6 = new System.Windows.Forms.ComboBox();
+            this.comboBox_YN5 = new System.Windows.Forms.ComboBox();
+            this.comboBox_YN4 = new System.Windows.Forms.ComboBox();
+            this.comboBox_YN3 = new System.Windows.Forms.ComboBox();
+            this.comboBox_YN2 = new System.Windows.Forms.ComboBox();
+            this.comboBox_YN1 = new System.Windows.Forms.ComboBox();
             this.lbl_loss = new System.Windows.Forms.Label();
             this.lbl_musclePain = new System.Windows.Forms.Label();
             this.lbl_headache = new System.Windows.Forms.Label();
@@ -56,14 +62,9 @@ namespace ContactTracingApp
             this.lbl_dryCough = new System.Windows.Forms.Label();
             this.btn_Save = new System.Windows.Forms.Button();
             this.comboBox_gender = new System.Windows.Forms.ComboBox();
-            this.comboBox_YN1 = new System.Windows.Forms.ComboBox();
-            this.comboBox_YN2 = new System.Windows.Forms.ComboBox();
-            this.comboBox_YN3 = new System.Windows.Forms.ComboBox();
-            this.comboBox_YN4 = new System.Windows.Forms.ComboBox();
-            this.comboBox_YN5 = new System.Windows.Forms.ComboBox();
-            this.comboBox_YN6 = new System.Windows.Forms.ComboBox();
             this.rtb_ReadFiles = new System.Windows.Forms.RichTextBox();
             this.btn_Exit = new System.Windows.Forms.Button();
+            this.btn_Reset = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -271,6 +272,78 @@ namespace ContactTracingApp
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Health Condition:";
             // 
+            // comboBox_YN6
+            // 
+            this.comboBox_YN6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_YN6.FormattingEnabled = true;
+            this.comboBox_YN6.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.comboBox_YN6.Location = new System.Drawing.Point(611, 89);
+            this.comboBox_YN6.Name = "comboBox_YN6";
+            this.comboBox_YN6.Size = new System.Drawing.Size(121, 23);
+            this.comboBox_YN6.TabIndex = 27;
+            // 
+            // comboBox_YN5
+            // 
+            this.comboBox_YN5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_YN5.FormattingEnabled = true;
+            this.comboBox_YN5.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.comboBox_YN5.Location = new System.Drawing.Point(607, 44);
+            this.comboBox_YN5.Name = "comboBox_YN5";
+            this.comboBox_YN5.Size = new System.Drawing.Size(121, 23);
+            this.comboBox_YN5.TabIndex = 26;
+            // 
+            // comboBox_YN4
+            // 
+            this.comboBox_YN4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_YN4.FormattingEnabled = true;
+            this.comboBox_YN4.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.comboBox_YN4.Location = new System.Drawing.Point(338, 88);
+            this.comboBox_YN4.Name = "comboBox_YN4";
+            this.comboBox_YN4.Size = new System.Drawing.Size(121, 23);
+            this.comboBox_YN4.TabIndex = 25;
+            // 
+            // comboBox_YN3
+            // 
+            this.comboBox_YN3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_YN3.FormattingEnabled = true;
+            this.comboBox_YN3.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.comboBox_YN3.Location = new System.Drawing.Point(338, 44);
+            this.comboBox_YN3.Name = "comboBox_YN3";
+            this.comboBox_YN3.Size = new System.Drawing.Size(121, 23);
+            this.comboBox_YN3.TabIndex = 24;
+            // 
+            // comboBox_YN2
+            // 
+            this.comboBox_YN2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_YN2.FormattingEnabled = true;
+            this.comboBox_YN2.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.comboBox_YN2.Location = new System.Drawing.Point(132, 88);
+            this.comboBox_YN2.Name = "comboBox_YN2";
+            this.comboBox_YN2.Size = new System.Drawing.Size(121, 23);
+            this.comboBox_YN2.TabIndex = 23;
+            // 
+            // comboBox_YN1
+            // 
+            this.comboBox_YN1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_YN1.FormattingEnabled = true;
+            this.comboBox_YN1.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.comboBox_YN1.Location = new System.Drawing.Point(132, 44);
+            this.comboBox_YN1.Name = "comboBox_YN1";
+            this.comboBox_YN1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox_YN1.TabIndex = 22;
+            // 
             // lbl_loss
             // 
             this.lbl_loss.AutoSize = true;
@@ -329,7 +402,7 @@ namespace ContactTracingApp
             // 
             this.btn_Save.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btn_Save.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Save.Location = new System.Drawing.Point(571, 567);
+            this.btn_Save.Location = new System.Drawing.Point(445, 567);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(75, 23);
             this.btn_Save.TabIndex = 35;
@@ -349,78 +422,6 @@ namespace ContactTracingApp
             this.comboBox_gender.Name = "comboBox_gender";
             this.comboBox_gender.Size = new System.Drawing.Size(256, 23);
             this.comboBox_gender.TabIndex = 36;
-            // 
-            // comboBox_YN1
-            // 
-            this.comboBox_YN1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_YN1.FormattingEnabled = true;
-            this.comboBox_YN1.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.comboBox_YN1.Location = new System.Drawing.Point(132, 44);
-            this.comboBox_YN1.Name = "comboBox_YN1";
-            this.comboBox_YN1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox_YN1.TabIndex = 22;
-            // 
-            // comboBox_YN2
-            // 
-            this.comboBox_YN2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_YN2.FormattingEnabled = true;
-            this.comboBox_YN2.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.comboBox_YN2.Location = new System.Drawing.Point(132, 88);
-            this.comboBox_YN2.Name = "comboBox_YN2";
-            this.comboBox_YN2.Size = new System.Drawing.Size(121, 23);
-            this.comboBox_YN2.TabIndex = 23;
-            // 
-            // comboBox_YN3
-            // 
-            this.comboBox_YN3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_YN3.FormattingEnabled = true;
-            this.comboBox_YN3.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.comboBox_YN3.Location = new System.Drawing.Point(338, 44);
-            this.comboBox_YN3.Name = "comboBox_YN3";
-            this.comboBox_YN3.Size = new System.Drawing.Size(121, 23);
-            this.comboBox_YN3.TabIndex = 24;
-            // 
-            // comboBox_YN4
-            // 
-            this.comboBox_YN4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_YN4.FormattingEnabled = true;
-            this.comboBox_YN4.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.comboBox_YN4.Location = new System.Drawing.Point(338, 88);
-            this.comboBox_YN4.Name = "comboBox_YN4";
-            this.comboBox_YN4.Size = new System.Drawing.Size(121, 23);
-            this.comboBox_YN4.TabIndex = 25;
-            // 
-            // comboBox_YN5
-            // 
-            this.comboBox_YN5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_YN5.FormattingEnabled = true;
-            this.comboBox_YN5.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.comboBox_YN5.Location = new System.Drawing.Point(607, 44);
-            this.comboBox_YN5.Name = "comboBox_YN5";
-            this.comboBox_YN5.Size = new System.Drawing.Size(121, 23);
-            this.comboBox_YN5.TabIndex = 26;
-            // 
-            // comboBox_YN6
-            // 
-            this.comboBox_YN6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_YN6.FormattingEnabled = true;
-            this.comboBox_YN6.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.comboBox_YN6.Location = new System.Drawing.Point(611, 89);
-            this.comboBox_YN6.Name = "comboBox_YN6";
-            this.comboBox_YN6.Size = new System.Drawing.Size(121, 23);
-            this.comboBox_YN6.TabIndex = 27;
             // 
             // rtb_ReadFiles
             // 
@@ -443,6 +444,18 @@ namespace ContactTracingApp
             this.btn_Exit.UseVisualStyleBackColor = false;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
+            // btn_Reset
+            // 
+            this.btn_Reset.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn_Reset.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Reset.Location = new System.Drawing.Point(557, 567);
+            this.btn_Reset.Name = "btn_Reset";
+            this.btn_Reset.Size = new System.Drawing.Size(75, 23);
+            this.btn_Reset.TabIndex = 39;
+            this.btn_Reset.Text = "Reset";
+            this.btn_Reset.UseVisualStyleBackColor = false;
+            this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -450,6 +463,7 @@ namespace ContactTracingApp
             this.BackgroundImage = global::ContactTracingApp.Properties.Resources._1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(772, 600);
+            this.Controls.Add(this.btn_Reset);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.rtb_ReadFiles);
             this.Controls.Add(this.comboBox_gender);
@@ -519,6 +533,7 @@ namespace ContactTracingApp
         private System.Windows.Forms.ComboBox comboBox_YN1;
         private System.Windows.Forms.RichTextBox rtb_ReadFiles;
         private System.Windows.Forms.Button btn_Exit;
+        private System.Windows.Forms.Button btn_Reset;
     }
 }
 

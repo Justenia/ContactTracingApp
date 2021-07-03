@@ -48,11 +48,6 @@ namespace ContactTracingApp
             inputFile.Close();
         }
 
-        private void btn_Exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void btn_Reset_Click(object sender, EventArgs e)
         {
             txtBox_lastName.Clear();
@@ -70,6 +65,11 @@ namespace ContactTracingApp
             comboBox_YN4.Text = null;
             comboBox_YN5.Text = null;
             comboBox_YN6.Text = null;
+        }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
